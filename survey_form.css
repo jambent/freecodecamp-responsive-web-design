@@ -1,0 +1,48 @@
+body {
+    background-image: url('screws.jpeg');
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color:rgb(255, 255, 255);
+  }
+  .top_para{
+    color:rgb(254, 254, 254);
+    font-size: 20px;
+  }
+
+  p{
+    color:rgb(254, 254, 254);
+    font-size: 15px;
+  }
+  label{
+    color:rgb(254, 254, 254);
+    font-size: 15px;
+  }
+
+  img {
+    display: block;
+    margin: 200px;
+  }
+  .top_block {
+    background-color: rgb(158, 156, 156);
+    border-color: rgb(255, 255, 255);
+  }
+  .form_block {
+    background-color: rgb(158, 156, 156);
+    border-color: rgb(255, 255, 255);
+    padding:5px;
+  }
+
+  .subButton{
+    margin-top: 50px;
+    margin-left:5px;
+    height:35px;
+    width:110px;
+    font-size:25px;
+    border-color: rgb(255, 255, 255);
+  }
