@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <header>
+    <title>Survey Form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </header>
+
+  <body>
+    <h1 id="title">Take Our Survey</h1>
+    <p id="description">Please help us to better tailor our services to you</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required></label>
+        <label for="email" id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required></label>
+        <label for="number" id="number-label">Age (optional)<input id="number" type="number" placeholder="Enter your age (optional)" min="5" max="130" pattern="[0-9]"></label>
+        </fieldset>
+        <fieldset>
+          <p for="country">Where are you based?</p>
+          <label for="country">England
+            <input type="radio" name="country" value="1" class="inline">
+          </label>
+          <label for="country">Wales
+            <input type="radio" name="country" value="2" class="inline">
+          </label>
+          <label for="country">Scotland
+            <input type="radio" name="country" value="3" class="inline">
+          </label>
+          <label for="country">Northern Ireland
+            <input type="radio" name="country" value="4" class="inline">
+          </label>
+          <label for="country">Outside U.K.
+            <input type="radio" name="country" value="5" class="inline">
+          </label>
+        </fieldset>
+        <fieldset><label>
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Doubt it</option>
+            <option value="2">Absolutely not</option>
+            <option value="3">Are you having a laugh?</option>
+          </select>
+          Would you do this again?
+          </label>
+        </fieldset>
+        <fieldset>
+          <label for="comments">Please could you let us know why you're so disappointed?<textarea id="comments" rows="4" cols="40" placeholder="Disappointment here"></textarea></label>
+        </fieldset>
+        <fieldset>
+        <label for="data-policy">Have you read and understood our very special data retention and usage policy?<input id="data-policy" type="checkbox" value="1" required></label>
+        <label for="self-liability">Do you understand that we don't actually look at these survey forms?<input id="self-liability" type="checkbox" value="2" required></label>
+        
+        </fieldset>
+      <input id ="submit" type="submit" value="Submit">
+      </form>
+  </body>
+</html>
